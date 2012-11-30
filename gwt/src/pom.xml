@@ -19,8 +19,6 @@
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>
-			<version>${gwtVersion}</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt.google-apis</groupId>
@@ -52,7 +50,7 @@
 				<scope>provided</scope>
 			</dependency>
 		</dependencies>
-	</dependencyManagement>   	
+	</dependencyManagement>
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<sourceDirectory>src</sourceDirectory>
@@ -60,7 +58,7 @@
 			<resource>
 				<directory>src</directory>
 				<includes>
-					<include>**/*.java</include>	
+					<include>**/*.java</include>
 					<include>**/*.properties</include>
 					<include>**/*.js</include>
 					<include>**/*.css</include>
